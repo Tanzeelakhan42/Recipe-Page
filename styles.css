@@ -3,22 +3,20 @@
   margin: 0;
 }
 .main-container {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: pink;
   border-radius: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container-1 {
-  height: 90%;
-  width: 50%;
+.content-box {
   background-color: blueviolet;
-  border-radius: 20px 0px 0px 0px;
-  margin: 50px 0px 0px 40px;
-}
-.container-2 {
-  height: 90%;
-  width: 50%;
-  background-color: yellowgreen;
-  margin: 0px 40px 50px 0px;
+  border-radius: 20px;
+  margin: 50px 40px 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
 }
