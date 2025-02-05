@@ -61,6 +61,11 @@ ol {
     padding: 0px;
   }
   .content-box {
-    width: 58vw;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .content {
+    padding: 30px;
   }
 }
