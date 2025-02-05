@@ -29,6 +29,14 @@
   flex-direction: column;
   justify-content: center;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #353333;
+}
 ul {
   list-style-type: none;
   padding-left: 5px;
